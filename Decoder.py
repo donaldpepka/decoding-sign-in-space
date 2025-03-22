@@ -152,7 +152,7 @@ def draw():
                 if board[i][j] == 1:
                     fill(255)
                     square(i * w, j * w, w)
-        save_frame("sign_" + str(generation) + ".png")
+        save_frame("images/sign_" + str(generation) + ".png")
 
     if animating and load_msg:
         # Basic outline for the function:
